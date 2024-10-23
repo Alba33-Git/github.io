@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copy Code Page</title>
+    <title>Code GPT</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,7 +43,7 @@
 </head>
 <body>
 
-<h1>Copy Code Example</h1>
+<h1>Code GPT</h1>
 <p>Click the button below to copy the code to your clipboard:</p>
 
 <div class="code-container">
