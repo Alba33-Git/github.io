@@ -44,7 +44,6 @@
 <body>
 
 <h1>Code GPT</h1>
-<p>Click the button below to copy the code to your clipboard:</p>
 
 <div class="code-container">
     <button class="copy-btn" onclick="copyCode()">Copy Code</button>
