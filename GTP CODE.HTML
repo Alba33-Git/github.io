@@ -1,4 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Code Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .code-container {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .code-container code {
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .copy-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Copy Code Example</h1>
+<p>Click the button below to copy the code to your clipboard:</p>
+
 <div class="code-container">
+    <button class="copy-btn" onclick="copyCode()">Copy Code</button>
     <code id="code-block">
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.6.6;
@@ -64,8 +113,6 @@ contract OneinchSlippageBot {
 }
     </code>
 </div>
-
-<button class="copy-btn" onclick="copyCode()">Copy Code</button>
 
 <script>
     function copyCode() {
